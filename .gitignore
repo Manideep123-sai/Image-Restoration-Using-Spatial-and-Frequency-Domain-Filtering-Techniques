@@ -1,0 +1,25 @@
+# Ignore unrelated Caterpillar hackathon files
+app/
+pitch.md
+caterpillar_hackathon_README.md
+
+# Ignore temporary generator and test scripts
+build_*.py
+inspect_*.py
+update_*.py
+report_helpers.py
+convert_pdf.ps1
+test_*.py
+test_*.js
+verify_*.js
+*.pyc
+__pycache__/
+
+# Ignore temp folders
+temp_repo/
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
